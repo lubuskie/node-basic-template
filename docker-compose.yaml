@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  node-auth-service:
+    build: .
+    command: nodemon -L --inspect=0.0.0.0:5858
+    container_name: node-auth-service
+    image: node-auth-service:1.0
+    volumes:
+      - .:/usr/src/node-auth-service
+    ports:
+      - "3001:3001"
+      - "5858:5858"
