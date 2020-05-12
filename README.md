@@ -1,1 +1,1 @@
-# node-auth-service
+# Node.js Basic Template
