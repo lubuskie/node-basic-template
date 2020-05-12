@@ -17,20 +17,19 @@ if (process.env.NODE_ENV == "development") {
   app.use(
     errorHandler({
       dumpExceptions: true,
-      showStack: true
-    })
+      showStack: true,
+    }),
   );
   app.use(errorHandler());
   app.use(
     morgan(
-      "[:date[web]] :method :url :status :response-time ms - :res[content-length]"
-    )
+      "[:date[web]] :method :url :status :response-time ms - :res[content-length]",
+    ),
   );
 }
 
 app.get("/", (req, res) => {
-  let message = "OK!";
-  res.json({ Mesaj: message });
+  res.json({ "response": "ok" });
 });
 
 app.listen(app.get("port"), () => {

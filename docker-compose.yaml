@@ -1,11 +1,11 @@
 version: "3.7"
 
 services:
-  node-auth-service:
+  node-basic-template:
     build: .
     command: nodemon -L --inspect=0.0.0.0:5858
-    container_name: node-auth-service
-    image: node-auth-service:1.0
+    container_name: node-basic-template
+    image: node-basic-template:1.0
     volumes:
       - .:/usr/src/node-auth-service
     ports:
