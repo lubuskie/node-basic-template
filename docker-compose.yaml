@@ -7,7 +7,7 @@ services:
     container_name: node-basic-template
     image: node-basic-template:1.0
     volumes:
-      - .:/usr/src/node-auth-service
+      - .:/usr/src/node-basic-template
     ports:
       - "3001:3001"
       - "5858:5858"
