@@ -1,5 +1,5 @@
 {
-  "name": "node-auth-service",
+  "name": "node-basic-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lubuskie/node-auth-service.git"
+    "url": "git+https://github.com/lubuskie/node-basic-template.git"
   },
   "author": "Cătălin Iordache",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lubuskie/node-auth-service/issues"
+    "url": "https://github.com/lubuskie/node-basic-template/issues"
   },
-  "homepage": "https://github.com/lubuskie/node-auth-service#readme",
+  "homepage": "https://github.com/lubuskie/node-basic-template#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
